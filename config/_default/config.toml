@@ -1,0 +1,127 @@
+baseURL = "/"
+title = "Mark R. Havens (Shell)"
+# author = "Yukuro"
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+copyright = "Mark Randall Havens"
+
+[Params]
+
+copyrightLink = "https://markrandallhavens.com"
+
+# Additions start here
+  [Params.Navbar]
+  use = true
+  
+  [Params.Extensions]
+  use = true
+  ext = ".txt" # extension to add after single page
+# Additions stop here
+    
+  # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+  description = "Mark R. Havens Portfolio!"
+  [Params.Terminal]
+  # Note: color scheme
+  # Note: You can choose between
+  # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
+  # Note: gogh theme: https://mayccoll.github.io/Gogh/
+  scheme = "Material"
+#  scheme = "Ubuntu"
+#  scheme = "Retro"
+
+  # Note: in terminal
+  # [userName]@[pcName]:~/$ cd [workDir]
+  # [userName]@[pcName]:~/[workDir]$ cat [profile]
+  #
+  # [description]
+  #
+  # Note: if you set Params.Tree > use = true
+  # [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
+  # ./[folderName]/
+  # ...
+  # Note: result of the tree command
+  userName = "mark"
+  pcName = "devbox"
+  workDir = "home"
+  profile = "profile.txt"
+
+  # Note: speed at which text is displayed on the terminal
+  # Note: if set to 0, typing animation will be disabled
+  # Note:
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  ps1Delay = 1 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 5 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+  # terminalDelay = 20 : deprecated
+
+  # Note: speed at which text is displayed on the activity pages
+  # Note: if set to 0, typing animation will be disabled
+  # Note: 
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  titleDelay = 0 # title speed : "title" in front matter
+  contentDelay = 0 # content speed : content in .md file
+
+  # activityDelay = 5 : deprecated
+
+  description = """
+Name: Mark R. Havens 
+Role: Educator
+
+Specialties:
+- Artificial Intellegence (AI)
+- Distributed Computing
+
+Teaching Experience:
+- First Paid Position: C/C++ (age 19)
+- Nonprofit: Founded Dallas Makerspace in 2010
+- Academia: Since 2016
+
+Approach to Learning:
+- Hands-on
+- Project-based
+- Storytelling
+
+  """
+
+  # Note: If you want to use a Markdown file, you can use the following
+  # description = "/description.md"
+  # Note: and put the description.md in /content/description.md
+
+  [Params.Tree]
+  use = true
+  folderName = "teaching"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+
+    ["artificial-intellegence","artificial-intellegence"],
+#    ["computer-networking","computer-networking"],
+    ["distributed-computing","distributed-computing"],
+    ["information-security","information-security"],
+    ["programming-languages","programming-languages"],
+#    ["software-engineering","software-engineering"],
+
+#    ["ai-human-interaction", "ai-human-interaction"],
+#    ["AI Management", "/post/ai-management.md"],
+#    ["AI Compliance", "/post/ai-compliance.md"],
+#    ["AI Security", "/post/ai-security.md"],
+#    ["AI Information Management", "post/ai-information-management.md"],
+#    ["AI-Enabled Workforce", "post/ai-enabled-workforce.md"],
+#    ["Human-AI Collaboration", "/post/ai-collaboration.md"],
+#    ["Human-Centered AI", "human-centered-ai"],
+#    ["test", "test"],
+#    ["Machine Learning", "/post/machine-learning.md"],
+#    ["Computer Networking", "/post/computer-networking.md"],
+#    ["Python", "/post/python.md"],
+#    ["C/C++", "/post/cpp.md"],
+#    ["Software Engineering", "/post/software-engineering.md"],
+#    ["Assembly Language Programming", "/post/assembly-language.md"],
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.85.0"
