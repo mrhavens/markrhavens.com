@@ -17,8 +17,18 @@ body {
     .Typewriter__cursor {
         color: $charcolor;
     }
+
+    .Title {
+        font-size: 1.0em; /* Change this value to set the font size */
+	color: $charcolor;
+    }
 }
 
 a {
     color: $charcolor;
+
+    .Title {
+         font-size: 1.0em; /* Change this value to set the font size */
+         color: $charcolor;
+    }
 }
