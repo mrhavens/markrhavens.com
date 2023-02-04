@@ -96,6 +96,7 @@ Approach to Learning:
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
 
+    ["old-stuff","old-stuff"],
     ["artificial-intellegence","artificial-intellegence"],
 #    ["computer-networking","computer-networking"],
     ["distributed-computing","distributed-computing"],

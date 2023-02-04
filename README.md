@@ -12,4 +12,6 @@ I also noticed that there was a glitch in the directory handling of multiple pos
 
 In light of these limitations, I have decided to use this theme primarily as a profile page, with limited introductions to other topics that will be covered in more detail elsewhere. Despite this, I still believe that the theme is a cool concept, and I hope that it will attract technically-minded individuals to my classes.
 
-
+*Edit:*
+Well, I knew I'd do this...
+I got frustrated trying to untangle the dynamic CSS maze and made a bunch of manual style changes directly to the layout. Which means it will stay in "Retro" style mode for now, due to hardcoded changes.
