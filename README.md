@@ -11,3 +11,5 @@ There's no tag support. Which is fine for profile purposes.
 I also noticed that there was a glitch in the directory handling of multiple posts. The default handling put the directroy titles in upper case, and somehow made it plurl by adding an 's' to the end. This was bothersome, and while I could have spent a few hours trying to fix it, a decided to work around the problem by using '_index.md' to override the directory names. This worked pretty well, and I'm happy with the results.
 
 In light of these limitations, I have decided to use this theme primarily as a profile page, with limited introductions to other topics that will be covered in more detail elsewhere. Despite this, I still believe that the theme is a cool concept, and I hope that it will attract technically-minded individuals to my classes.
+
+
