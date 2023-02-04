@@ -519,16 +519,16 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
     bottom: 0px;
     left: 0px;
     width: 100%;
-    padding-top: 5px;
-    padding: 10px;
+    padding-top: 3px;
+    padding: 3px;
     padding-bottom: 0px;
 }
 
 .navCredits {
     float: right;
     padding-right: 18px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 #content::after {
@@ -538,8 +538,6 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
         
         
 </style>
-
-
 
 </head><body><div id="content">
     
@@ -597,7 +595,7 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
     const titleDelay = parseDelay("0"),
         contentDelay = parseDelay("0");
     const typeeffetct = async () => {
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eusing-ai-to-hack-stuff\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003e\u003cspan style=\u0027font-size:2vmin;\u0027\u003eusing-ai-to-hack-stuff\u003c\/span\u003e\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch3 id=\u0022hacking-with-ai-the-future-of-cybersecurity\u0022\u003eHacking with AI: The Future of Cybersecurity\u003c\/h3\u003e\n\u003cp\u003eThe world is becoming more and more dependent on technology, and as a result, the threat of cyber attacks is greater than ever. But what if the solution to the problem wasn\u0026rsquo;t more advanced technology, but smarter technology? This is where the field of Hacking with AI comes in.\u003c\/p\u003e\n\u003cp\u003eBy combining the power of artificial intelligence with the skills and knowledge of a hacker, Hacking with AI has the potential to revolutionize the way we approach cybersecurity. With AI, we can quickly analyze and identify vulnerabilities in a system, allowing us to fix them before they can be exploited.\u003c\/p\u003e\n\u003cp\u003eBut to truly make the most of this new field, we need people who are trained in both AI and hacking. This is why it\u0026rsquo;s more important than ever to start learning about Hacking with AI.\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003eIf you\u0026rsquo;re interested in taking your cybersecurity skills to the next level, follow \u003ca href=\u0022https:\/\/twitter.com\/markrhavens\u0022\u003eMark on Twitter\u003c\/a\u003e and share this article. Up to 20 people who share will be sent an exclusive invitation to Mark\u0026rsquo;s free class on Hacking with AI, where you\u0026rsquo;ll learn everything you need to know about this exciting new field.\u003c\/em\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003eDon\u0026rsquo;t miss out on this opportunity to learn from a leader in the developing field of Hacking with AI and join the future of cybersecurity.\u003c\/em\u003e\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
         return;
     }

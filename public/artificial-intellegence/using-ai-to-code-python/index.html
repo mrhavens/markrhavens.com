@@ -519,16 +519,16 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
     bottom: 0px;
     left: 0px;
     width: 100%;
-    padding-top: 5px;
-    padding: 10px;
+    padding-top: 3px;
+    padding: 3px;
     padding-bottom: 0px;
 }
 
 .navCredits {
     float: right;
     padding-right: 18px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 #content::after {
@@ -538,8 +538,6 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
         
         
 </style>
-
-
 
 </head><body><div id="content">
     
@@ -597,7 +595,7 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
     const titleDelay = parseDelay("0"),
         contentDelay = parseDelay("0");
     const typeeffetct = async () => {
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eusing-ai-to-code-python\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003e\u003cspan style=\u0027font-size:2vmin;\u0027\u003eusing-ai-to-code-python\u003c\/span\u003e\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch3 id=\u0022master-python-with-ai-collaboration\u0022\u003eMaster Python with AI Collaboration\u003c\/h3\u003e\n\u003ch4 id=\u0022about-the-course\u0022\u003eAbout the Course\u003c\/h4\u003e\n\u003cp\u003ePython is a versatile programming language with a wide range of applications. This course takes it to the next level by showing you how to harness the power of AI for Python programming. Learn how to build useful tools with AI collaboration and gain a deeper understanding of how to design software with AI as a resource.\u003c\/p\u003e\n\u003ch4 id=\u0022course-outcomes\u0022\u003eCourse Outcomes\u003c\/h4\u003e\n\u003cp\u003eBy the end of this course, students will be able to:\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003eWrite and run basic Python functions with AI collaboration\u003c\/li\u003e\n\u003cli\u003eUnderstand the syntax and structure of Python programming with AI assistance\u003c\/li\u003e\n\u003cli\u003eFamiliarize with commonly used Python libraries and tools that can be enhanced by AI\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch4 id=\u0022course-instructor\u0022\u003eCourse Instructor\u003c\/h4\u003e\n\u003cp\u003e\u003ca href=\u0022https:\/\/mrhavens.co\u0022\u003eMark Havens\u003c\/a\u003e, an expert in AI and Programming Languages, will guide students through the process of mastering Python programming with AI collaboration. Whether you are a beginner or have prior experience, this course is designed to meet your needs.\u003c\/p\u003e\n\u003ch4 id=\u0022join-the-future-of-python-programming\u0022\u003eJoin the Future of Python Programming\u003c\/h4\u003e\n\u003cp\u003eTake your Python skills to the next level by joining the Master Python with AI Collaboration course. \u003ca href=\u0022https:\/\/twitter.com\/markrhavens\u0022\u003eFollow Mark on Twitter\u003c\/a\u003e and share this article for a chance to be selected for an exclusive invitation to join the class.\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
         return;
     }

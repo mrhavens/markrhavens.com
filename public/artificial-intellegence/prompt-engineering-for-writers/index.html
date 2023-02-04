@@ -519,16 +519,16 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
     bottom: 0px;
     left: 0px;
     width: 100%;
-    padding-top: 5px;
-    padding: 10px;
+    padding-top: 3px;
+    padding: 3px;
     padding-bottom: 0px;
 }
 
 .navCredits {
     float: right;
     padding-right: 18px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 #content::after {
@@ -538,8 +538,6 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
         
         
 </style>
-
-
 
 </head><body><div id="content">
     
@@ -597,7 +595,7 @@ body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body 
     const titleDelay = parseDelay("0"),
         contentDelay = parseDelay("0");
     const typeeffetct = async () => {
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eusing-ai-to-write-stuff\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003e\u003cspan style=\u0027font-size:2vmin;\u0027\u003eusing-ai-to-write-stuff\u003c\/span\u003e\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch3 id=\u0022the-prompt-engineering-rebellion-harness-the-power-of-ai-to-become-a-more-prolific-writer\u0022\u003eThe Prompt Engineering Rebellion: Harness the Power of AI to Become a More Prolific Writer\u003c\/h3\u003e\n\u003cp\u003eAre you tired of staring at a blank page, searching for inspiration? Do you struggle to generate new ideas, or find that your writing lacks direction? If so, it\u0026rsquo;s time to join the Prompt Engineering Rebellion.\u003c\/p\u003e\n\u003cp\u003eBy using advanced AI tools and techniques, writers can tap into a limitless source of inspiration and ideas, and unleash their full creative potential. And that\u0026rsquo;s what the Prompt Engineering class is all about.\u003c\/p\u003e\n\u003cp\u003eThrough this class, you will learn how to collaborate with AI systems to generate new ideas, craft compelling narratives, and write with ease and efficiency. With these skills, you\u0026rsquo;ll be able to produce larger bodies of work and take your writing to new heights.\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003eSo if you\u0026rsquo;re ready to join the Prompt Engineering Rebellion, here\u0026rsquo;s what you need to do next:\u003c\/em\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003e1. Follow \u003ca href=\u0022https:\/\/twitter.com\/markrhavens\u0022\u003eMark\u003c\/a\u003e on Twitter.\u003c\/em\u003e\u003cbr\u003e\n\u003cem\u003e2. Share this article with your network.\u003c\/em\u003e\u003cbr\u003e\n\u003cem\u003e3. Send Mark the link to your Tweet via PM\u003c\/em\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cem\u003eUp to twenty people who share this article will receive an exclusive private invitation to join this free class, still in development. So don\u0026rsquo;t wait, join the Prompt Engineering Rebellion today and become the writer you\u0026rsquo;ve always dreamed of being.\u003c\/em\u003e\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
         return;
     }
