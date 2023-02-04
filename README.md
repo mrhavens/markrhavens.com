@@ -12,3 +12,4 @@ I also noticed that there was a glitch in the directory handling of multiple pos
 
 In light of these limitations, I have decided to use this theme primarily as a profile page, with limited introductions to other topics that will be covered in more detail elsewhere. Despite this, I still believe that the theme is a cool concept, and I hope that it will attract technically-minded individuals to my classes.
 
+
