@@ -4,12 +4,13 @@
       <ul>
         {{ range .Pages }}
         <li>
-          <h2>
+		<h2><span style="color: #00f633; font-size:3vmin;">
             <a href="{{ .RelPermalink }}">
 
               {{ .Title }}{{ if and (.IsPage) (.Site.Params.Extensions.use) }}{{ .Site.Params.Extensions.ext }}
               {{ end }}
             </a>
+	  </span>
           </h2>
         </li>
         {{ end }}
