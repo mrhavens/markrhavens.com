@@ -17,6 +17,4 @@ But don't just take our word for it. Here are a few proof of concepts to give yo
 - Predict and prevent system outages
 - Streamline the deployment of infrastructure and applications
 
----
-
 *If you're ready to dive into the exciting world of AI-powered cloud computing, then join the AI Cloud Hijinks class today. Share this article and follow us on Twitter for a chance to receive a free exclusive invitation to attend the first online class, still in development. Let's change the game and bring the future of cloud computing to life.*
