@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>./programming-languages on Mark R. Havens (Shell)</title>
+    <link>/programming-languages/</link>
+    <description>Recent content in ./programming-languages on Mark R. Havens (Shell)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Mark Randall Havens</copyright>
+    <lastBuildDate>Tue, 01 Feb 2022 11:17:14 +0200</lastBuildDate><atom:link href="/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>using-ai-to-code-python</title>
+      <link>/programming-languages/using-ai-to-code-python/</link>
+      <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/programming-languages/using-ai-to-code-python/</guid>
+      <description>Master Python with AI Collaboration About the Course Python is a versatile programming language with a wide range of applications. This course takes it to the next level by showing you how to harness the power of AI for Python programming. Learn how to build useful tools with AI collaboration and gain a deeper understanding of how to design software with AI as a resource.
+Course Outcomes By the end of this course, students will be able to:</description>
+    </item>
+    
+  </channel>
+</rss>

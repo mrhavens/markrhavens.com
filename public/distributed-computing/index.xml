@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>./distributed-computing on Mark R. Havens (Shell)</title>
+    <link>/distributed-computing/</link>
+    <description>Recent content in ./distributed-computing on Mark R. Havens (Shell)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Mark Randall Havens</copyright>
+    <lastBuildDate>Tue, 01 Feb 2022 11:17:14 +0200</lastBuildDate><atom:link href="/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ai-4-cloud</title>
+      <link>/distributed-computing/ai-4-cloud/</link>
+      <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/distributed-computing/ai-4-cloud/</guid>
+      <description>Revolutionizing Cloud Computing: The Intersection of AI and Infrastructure Automation As the world of technology continues to advance, it&amp;rsquo;s important to stay ahead of the curve and understand how different industries will intersect and evolve. One such example is the relationship between cloud computing and AI.
+In the near future, AI systems will play a significant role in the automation of cloud infrastructure design and deployment. The development of AI-powered troubleshooting is also rapidly advancing, providing new opportunities for efficient problem solving in cloud systems.</description>
+    </item>
+    
+    <item>
+      <title>cloud-ai-4fun-and-profit</title>
+      <link>/distributed-computing/ai-cloud-hijinks/</link>
+      <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/distributed-computing/ai-cloud-hijinks/</guid>
+      <description>AI Cloud Hijinks: The Future of Cloud Computing Development Have you ever wished you could automate the tedious tasks associated with cloud computing development? Well, with the power of Artificial Intelligence, you can now streamline your workflow and maximize your efficiency.
+The AI Cloud Hijinks course is designed to show you how to leverage AI technologies to automate a wide range of cloud computing tasks. From infrastructure deployment to data management, the course covers it all.</description>
+    </item>
+    
+  </channel>
+</rss>

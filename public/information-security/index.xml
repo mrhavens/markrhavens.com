@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>./information-security on Mark R. Havens (Shell)</title>
+    <link>/information-security/</link>
+    <description>Recent content in ./information-security on Mark R. Havens (Shell)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Mark Randall Havens</copyright>
+    <lastBuildDate>Tue, 01 Feb 2022 11:17:14 +0200</lastBuildDate><atom:link href="/information-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>using-ai-to-hack-stuff</title>
+      <link>/information-security/hacking-with-ai/</link>
+      <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/information-security/hacking-with-ai/</guid>
+      <description>Hacking with AI: The Future of Cybersecurity The world is becoming more and more dependent on technology, and as a result, the threat of cyber attacks is greater than ever. But what if the solution to the problem wasn&amp;rsquo;t more advanced technology, but smarter technology? This is where the field of Hacking with AI comes in.
+By combining the power of artificial intelligence with the skills and knowledge of a hacker, Hacking with AI has the potential to revolutionize the way we approach cybersecurity.</description>
+    </item>
+    
+  </channel>
+</rss>
