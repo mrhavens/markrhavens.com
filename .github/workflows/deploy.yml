@@ -18,7 +18,7 @@ jobs:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
         port: ${{ secrets.SSH_PORT }}
-        source: docs/.
+        source: public/.
         target: ${{ secrets.SSH_DIR }}
         key: ${{ secrets.SSH_KEY }}
     - name: Copy files via ssh
@@ -28,6 +28,6 @@ jobs:
         host: ${{ secrets.DEV_SSH_HOST }}
         username: ${{ secrets.DEV_SSH_USER }}
         port: ${{ secrets.DEV_SSH_PORT }}
-        source: docs/.
+        source: public/.
         target: ${{ secrets.DEV_SSH_DIR }}
         key: ${{ secrets.DEV_SSH_KEY }}
