@@ -96,12 +96,12 @@ Approach to Learning:
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
 
-    ["old-stuff","old-stuff"],
     ["artificial-intellegence","artificial-intellegence"],
 #    ["computer-networking","computer-networking"],
     ["distributed-computing","distributed-computing"],
     ["information-security","information-security"],
     ["programming-languages","programming-languages"],
+    ["old-stuff","old-stuff"],
 #    ["software-engineering","software-engineering"],
 
 #    ["ai-human-interaction", "ai-human-interaction"],
